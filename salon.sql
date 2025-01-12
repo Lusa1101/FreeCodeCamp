@@ -173,28 +173,16 @@ ALTER TABLE ONLY public.services ALTER COLUMN service_id SET DEFAULT nextval('pu
 -- Data for Name: appointments; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.appointments VALUES (1, 1, 32, '10:30');
-INSERT INTO public.appointments VALUES (1, 2, 33, '11am');
-INSERT INTO public.appointments VALUES (4, 1, 36, '');
-INSERT INTO public.appointments VALUES (4, 1, 43, '');
-INSERT INTO public.appointments VALUES (4, 1, 50, '');
-INSERT INTO public.appointments VALUES (4, 1, 57, '');
-INSERT INTO public.appointments VALUES (44, 1, 62, '1pm');
-INSERT INTO public.appointments VALUES (4, 1, 65, '');
-INSERT INTO public.appointments VALUES (50, 4, 70, '10am');
-INSERT INTO public.appointments VALUES (4, 1, 73, '');
-INSERT INTO public.appointments VALUES (4, 1, 80, '');
+INSERT INTO public.appointments VALUES (71, 1, 99, '10:30');
+INSERT INTO public.appointments VALUES (112, 1, 148, '10:45');
 
 
 --
 -- Data for Name: customers; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.customers VALUES (1, '555-555-5555', 'Fabio');
-INSERT INTO public.customers VALUES (4, '', '');
-INSERT INTO public.customers VALUES (43, '0783887879', 'Omphu');
-INSERT INTO public.customers VALUES (44, '0893782123', 'Omphu');
-INSERT INTO public.customers VALUES (50, '786-767-8888', 'mpumi');
+INSERT INTO public.customers VALUES (71, '555-555-5555', 'Fabio');
+INSERT INTO public.customers VALUES (112, '535-888-2932', 'Tom');
 
 
 --
@@ -211,14 +199,14 @@ INSERT INTO public.services VALUES (4, 'Plait');
 -- Name: appointments_appointment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 84, true);
+SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 160, true);
 
 
 --
 -- Name: customers_customer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.customers_customer_id_seq', 60, true);
+SELECT pg_catalog.setval('public.customers_customer_id_seq', 122, true);
 
 
 --
